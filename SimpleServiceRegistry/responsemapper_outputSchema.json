@@ -1,0 +1,25 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "XML",
+  "id" : "",
+  "title" : "hw:HelloResponse",
+  "type" : "object",
+  "properties" : {
+    "Hello" : {
+      "id" : "id1",
+      "type" : "string"
+    },
+    "Value" : {
+      "id" : "null/0",
+      "type" : "string"
+    },
+    "name" : {
+      "id" : "null/0",
+      "type" : "string"
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "hw",
+    "url" : "http://www.sayhello.com/contract"
+  } ]
+}

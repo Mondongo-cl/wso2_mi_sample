@@ -1,0 +1,14 @@
+map_S_root_S_HelloResponse = function(){ 
+var outputhw_HelloResponse={};
+
+outputhw_HelloResponse =  {};
+outputhw_HelloResponse.Hello = inputroot.hello;
+outputhw_HelloResponse.Value = 'Hello'.toString().concat(' ',inputroot.hello).concat(' ',DM_PROPERTIES.DEFAULT['uri.var.name']);
+outputhw_HelloResponse.name = DM_PROPERTIES.DEFAULT['uri.var.name'];
+return outputhw_HelloResponse;
+};
+
+
+
+
+

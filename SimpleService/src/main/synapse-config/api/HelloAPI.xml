@@ -10,6 +10,10 @@
             </send>
         </inSequence>
         <outSequence>
+            <log description="log payload" level="custom">
+                <property expression="json-eval($)" name="response"/>
+            </log>
+            <datamapper config="gov:datamapper/responsemapper.dmc" description="response transform" inputSchema="gov:datamapper/responsemapper_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/responsemapper_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/responsemapper_xsltStyleSheet.xml"/>
             <send/>
         </outSequence>
         <faultSequence/>
