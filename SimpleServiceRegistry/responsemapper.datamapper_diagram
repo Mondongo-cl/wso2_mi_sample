@@ -118,7 +118,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N2EUoZXlEeq9M5NMGxi6TQ"/>
     </children>
     <element xmi:type="datamapper:Constant" href="responsemapper.datamapper#//@operators.0"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N2ADMZXlEeq9M5NMGxi6TQ" x="558" y="-450"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N2ADMZXlEeq9M5NMGxi6TQ" x="594" y="-405"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_OFGZsJXmEeq9M5NMGxi6TQ" type="2006" fontName="Segoe UI">
     <children xmi:type="notation:Shape" xmi:id="_OFIO4JXmEeq9M5NMGxi6TQ" type="3012" fontName="Segoe UI">
@@ -166,7 +166,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OFIO4ZXmEeq9M5NMGxi6TQ"/>
     </children>
     <element xmi:type="datamapper:Concat" href="responsemapper.datamapper#//@operators.1"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OFGZsZXmEeq9M5NMGxi6TQ" x="990" y="-423"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OFGZsZXmEeq9M5NMGxi6TQ" x="1242" y="-333"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_y-3SkJXtEeq9M5NMGxi6TQ" type="2035" fontName="Segoe UI">
     <children xmi:type="notation:Shape" xmi:id="_y--AQJXtEeq9M5NMGxi6TQ" type="3012" fontName="Segoe UI">
@@ -190,7 +190,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y--AQZXtEeq9M5NMGxi6TQ"/>
     </children>
     <element xmi:type="datamapper:Properties" href="responsemapper.datamapper#//@operators.2"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y-3SkZXtEeq9M5NMGxi6TQ" x="774" y="-846"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y-3SkZXtEeq9M5NMGxi6TQ" x="801" y="-621"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_kzwM0JXvEeq9M5NMGxi6TQ" type="2035" fontName="Segoe UI">
     <children xmi:type="notation:Shape" xmi:id="_kzwM0pXvEeq9M5NMGxi6TQ" type="3012" fontName="Segoe UI">
@@ -214,7 +214,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kzwM05XvEeq9M5NMGxi6TQ"/>
     </children>
     <element xmi:type="datamapper:Properties" href="responsemapper.datamapper#//@operators.3"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kzwM0ZXvEeq9M5NMGxi6TQ" x="126" y="-234"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kzwM0ZXvEeq9M5NMGxi6TQ" x="396" y="-252"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_npevsZXiEeq9M5NMGxi6TQ"/>
   <element xmi:type="datamapper:DataMapperRoot" href="responsemapper.datamapper#/"/>
