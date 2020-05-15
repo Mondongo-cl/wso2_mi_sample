@@ -7,6 +7,8 @@ COPY CompositeApps/*.car ${WSO2_SERVER_HOME}/repository/deployment/server/carbon
 
 
 
+
+
 #[DO NOT REMOVE] Auto generated Docker commands for config-map parser
 COPY  --chown=wso2carbon:wso2 CarbonHome/.metadata/metadata_config.properties ${WSO2_SERVER_HOME}/.metadata/metadata_config.properties
 COPY  --chown=wso2carbon:wso2 CarbonHome/conf/axis2/axis2.xml ${WSO2_SERVER_HOME}/conf/axis2/axis2.xml
