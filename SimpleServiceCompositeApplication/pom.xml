@@ -9,13 +9,21 @@
   <name>SimpleServiceCompositeApplication</name>
   <description>SimpleServiceCompositeApplication</description>
   <properties>
-    <com.example.SimpleService.resource_._responsemapper_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.SimpleService.resource_._responsemapper_xsltStyleSheet>
-    <com.example.SimpleService.endpoint_._mocky_io>capp/EnterpriseServiceBus</com.example.SimpleService.endpoint_._mocky_io>
-    <com.example.SimpleService.resource_._responsemapper_inputSchema>capp/EnterpriseServiceBus</com.example.SimpleService.resource_._responsemapper_inputSchema>
+    <com.example.SimpleService.inbound-endpoint_._HelloWorldInBoundEndpoint>capp/EnterpriseServiceBus</com.example.SimpleService.inbound-endpoint_._HelloWorldInBoundEndpoint>
     <com.example.SimpleService.api_._HelloAPI>capp/EnterpriseServiceBus</com.example.SimpleService.api_._HelloAPI>
-    <com.example.SimpleService.resource_._responsemapper>capp/EnterpriseServiceBus</com.example.SimpleService.resource_._responsemapper>
-    <com.example.SimpleService.resource_._responsemapper_outputSchema>capp/EnterpriseServiceBus</com.example.SimpleService.resource_._responsemapper_outputSchema>
+    <com.example.SimpleService.endpoint_._mocky_io_good_bye>capp/EnterpriseServiceBus</com.example.SimpleService.endpoint_._mocky_io_good_bye>
+    <com.example.SimpleService.resource_._responsemapper_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.SimpleService.resource_._responsemapper_xsltStyleSheet>
     <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
+    <com.example.SimpleService.resource_._CreateMaleServiceRequest>capp/EnterpriseServiceBus</com.example.SimpleService.resource_._CreateMaleServiceRequest>
+    <com.example.SimpleService.endpoint_._mocky_io_good_evening>capp/EnterpriseServiceBus</com.example.SimpleService.endpoint_._mocky_io_good_evening>
+    <com.example.SimpleService.resource_._responsemapper_outputSchema>capp/EnterpriseServiceBus</com.example.SimpleService.resource_._responsemapper_outputSchema>
+    <com.example.SimpleService.resource_._responsemapper>capp/EnterpriseServiceBus</com.example.SimpleService.resource_._responsemapper>
+    <com.example.SimpleService.resource_._CreateMaleServiceRequest_inputSchema>capp/EnterpriseServiceBus</com.example.SimpleService.resource_._CreateMaleServiceRequest_inputSchema>
+    <com.example.SimpleService.endpoint_._mocky_io>capp/EnterpriseServiceBus</com.example.SimpleService.endpoint_._mocky_io>
+    <com.example.SimpleService.resource_._CreateMaleServiceRequest_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.SimpleService.resource_._CreateMaleServiceRequest_xsltStyleSheet>
+    <com.example.SimpleService.resource_._responsemapper_inputSchema>capp/EnterpriseServiceBus</com.example.SimpleService.resource_._responsemapper_inputSchema>
+    <com.example.SimpleService.api_._RouteDemo>capp/EnterpriseServiceBus</com.example.SimpleService.api_._RouteDemo>
+    <com.example.SimpleService.resource_._CreateMaleServiceRequest_outputSchema>capp/EnterpriseServiceBus</com.example.SimpleService.resource_._CreateMaleServiceRequest_outputSchema>
   </properties>
   <dependencies>
     <dependency>
@@ -23,6 +31,12 @@
       <artifactId>responsemapper</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.SimpleService.endpoint</groupId>
+      <artifactId>mocky_io_good_evening</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.SimpleService.api</groupId>
@@ -38,6 +52,54 @@
     </dependency>
     <dependency>
       <groupId>com.example.SimpleService.resource</groupId>
+      <artifactId>responsemapper_xsltStyleSheet</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.SimpleService.resource</groupId>
+      <artifactId>CreateMaleServiceRequest_outputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.SimpleService.endpoint</groupId>
+      <artifactId>mocky_io_good_bye</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.SimpleService.resource</groupId>
+      <artifactId>CreateMaleServiceRequest_inputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.SimpleService.api</groupId>
+      <artifactId>RouteDemo</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.SimpleService.inbound-endpoint</groupId>
+      <artifactId>HelloWorldInBoundEndpoint</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.SimpleService.resource</groupId>
+      <artifactId>CreateMaleServiceRequest</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.SimpleService.resource</groupId>
+      <artifactId>CreateMaleServiceRequest_xsltStyleSheet</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.SimpleService.resource</groupId>
       <artifactId>responsemapper_outputSchema</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
@@ -47,12 +109,6 @@
       <artifactId>mocky_io</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.SimpleService.resource</groupId>
-      <artifactId>responsemapper_xsltStyleSheet</artifactId>
-      <version>1.0.0</version>
-      <type>zip</type>
     </dependency>
   </dependencies>
   <repositories>

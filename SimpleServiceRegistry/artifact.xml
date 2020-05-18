@@ -27,4 +27,32 @@
             <mediaType>text/plain</mediaType>
         </item>
     </artifact>
+    <artifact name="CreateMaleServiceRequest" groupId="com.example.SimpleService.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>CreateMaleServiceRequest.dmc</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="CreateMaleServiceRequest_inputSchema" groupId="com.example.SimpleService.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>CreateMaleServiceRequest_inputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="CreateMaleServiceRequest_outputSchema" groupId="com.example.SimpleService.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>CreateMaleServiceRequest_outputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="CreateMaleServiceRequest_xsltStyleSheet" groupId="com.example.SimpleService.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>CreateMaleServiceRequest_xsltStyleSheet.xml</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
 </artifacts>

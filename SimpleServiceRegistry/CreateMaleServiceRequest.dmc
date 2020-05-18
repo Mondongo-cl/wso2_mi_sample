@@ -1,0 +1,10 @@
+map_S_root_S_root = function(){ 
+var outputroot={};
+
+outputroot =  {};
+outputroot.Greetings = DM_PROPERTIES.DEFAULT['uri.var.name'];
+outputroot.attr_gender = inputroot.gender;
+return outputroot;
+};
+
+

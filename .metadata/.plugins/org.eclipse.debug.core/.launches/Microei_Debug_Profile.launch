@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<launchConfiguration type="org.wso2.developerstudio.eclipse.gmf.esb.diagram.debugger.launch"/>
+<launchConfiguration type="org.wso2.developerstudio.eclipse.gmf.esb.diagram.debugger.launch">
+<stringAttribute key="Command Port" value="9005"/>
+<stringAttribute key="Event Port" value="9006"/>
+<stringAttribute key="Please select the debug mode" value="Internal"/>
+<stringAttribute key="Server Host" value="LAPTOP-9STPJQ5R"/>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+</listAttribute>
+</launchConfiguration>

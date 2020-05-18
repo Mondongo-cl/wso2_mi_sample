@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/resolve" name="RouteDemoAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <log description="Requestlog"/>
+            <switch source="json-eval($.route)">
+                <case regex="Evening">
+                    <send>
+                        <endpoint key="mocky_io_good_evening"/>
+                    </send>
+                </case>
+                <case regex="Morning">
+                    <send>
+                        <endpoint key="mocky_io_good_bye"/>
+                    </send>
+                </case>
+                <default>
+                    <send>
+                        <endpoint key="mocky_io"/>
+                    </send>
+                </default>
+            </switch>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>
