@@ -17,6 +17,7 @@
     <com.example.SimpleService.resource_._CreateMaleServiceRequest>capp/EnterpriseServiceBus</com.example.SimpleService.resource_._CreateMaleServiceRequest>
     <com.example.SimpleService.endpoint_._mocky_io_good_evening>capp/EnterpriseServiceBus</com.example.SimpleService.endpoint_._mocky_io_good_evening>
     <com.example.SimpleService.resource_._responsemapper_outputSchema>capp/EnterpriseServiceBus</com.example.SimpleService.resource_._responsemapper_outputSchema>
+    <com.example.SimpleService.api_._MessageTransformation>capp/EnterpriseServiceBus</com.example.SimpleService.api_._MessageTransformation>
     <com.example.SimpleService.resource_._responsemapper>capp/EnterpriseServiceBus</com.example.SimpleService.resource_._responsemapper>
     <com.example.SimpleService.resource_._CreateMaleServiceRequest_inputSchema>capp/EnterpriseServiceBus</com.example.SimpleService.resource_._CreateMaleServiceRequest_inputSchema>
     <com.example.SimpleService.endpoint_._mocky_io>capp/EnterpriseServiceBus</com.example.SimpleService.endpoint_._mocky_io>
@@ -103,6 +104,12 @@
       <artifactId>responsemapper_outputSchema</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.SimpleService.api</groupId>
+      <artifactId>MessageTransformation</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.SimpleService.endpoint</groupId>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/transform" name="MessageTransformation" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <log description="log"/>
+            <payloadFactory media-type="xml">
+                <format>
+                    <x xmlns="">
+                        <inline>
+$1
+</inline>
+                    </x>
+                </format>
+                <args>
+                    <arg evaluator="json" expression="$" literal="true"/>
+                </args>
+            </payloadFactory>
+            <respond/>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

@@ -17,4 +17,7 @@
     <artifact name="mocky_io_good_evening" groupId="com.example.SimpleService.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/endpoints/mocky_io_good_evening.xml</file>
     </artifact>
+    <artifact name="MessageTransformation" groupId="com.example.SimpleService.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/MessageTransformation.xml</file>
+    </artifact>
 </artifacts>

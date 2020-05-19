@@ -190,7 +190,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y--AQZXtEeq9M5NMGxi6TQ"/>
     </children>
     <element xmi:type="datamapper:Properties" href="responsemapper.datamapper#//@operators.2"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y-3SkZXtEeq9M5NMGxi6TQ" x="801" y="-621"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y-3SkZXtEeq9M5NMGxi6TQ" x="630" y="-639"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_kzwM0JXvEeq9M5NMGxi6TQ" type="2035" fontName="Segoe UI">
     <children xmi:type="notation:Shape" xmi:id="_kzwM0pXvEeq9M5NMGxi6TQ" type="3012" fontName="Segoe UI">
